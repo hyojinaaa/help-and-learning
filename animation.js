@@ -68,16 +68,40 @@ $(document).ready(function(){
 		$('.pause2').hide();
 	});
 
-	$('.play1').click(function(){
-		$('#video1').get(0).play();
-		$('.play1').hide();
-		$('.pause1').show();
+	$('.play3').click(function(){
+		$('#video3').get(0).play();
+		$('.play3').hide();
+		$('.pause3').show();
 	});
 
-	$('.pause1').click(function(){
-		$('#video1').get(0).pause();
-		$('.play1').show();
-		$('.pause1').hide();
+	$('.pause3').click(function(){
+		$('#video3').get(0).pause();
+		$('.play3').show();
+		$('.pause3').hide();
+	});
+
+	$('.play4').click(function(){
+		$('#video4').get(0).play();
+		$('.play4').hide();
+		$('.pause4').show();
+	});
+
+	$('.pause4').click(function(){
+		$('#video4').get(0).pause();
+		$('.play4').show();
+		$('.pause4').hide();
+	});
+
+	$('.play5').click(function(){
+		$('#video5').get(0).play();
+		$('.play5').hide();
+		$('.pause5').show();
+	});
+
+	$('.pause5').click(function(){
+		$('#video5').get(0).pause();
+		$('.play5').show();
+		$('.pause5').hide();
 	});
 
 });
