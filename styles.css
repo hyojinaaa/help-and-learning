@@ -23,6 +23,10 @@
 	font-size: 22px;
 }
 
+.content2 .ten {
+	width: 10%;
+}
+
 .title {
 	padding: 50px 0;
 	width: 600px;
@@ -44,26 +48,27 @@
 	font-family: 'Slabo 27px', serif;
 	padding: 40px;
 	letter-spacing: 2px;
+	padding-bottom: 20px;
+	padding-top: 80px;
 }
 
 .help1 .sixty {
-	width: 70%;
+	width: 60%;
 	padding: 50px;
 	text-align: left;
 }
 
 .sixty div {
-	margin-bottom: 5px;
-	padding: 20px;
+	padding: 10px;
 	padding-left: 40px;
 	color: #777777;
-	font-size: 15px;
 	width: 500px;
 }
 
 .sixty .subtitle {
-	font-size: 22px;
+	font-size: 18px;
 	font-weight: lighter;
+	margin-bottom: 8px;
 }
 
 .help1 .thirty {
@@ -74,15 +79,38 @@
 	display: inline-block;
 	margin-top: 80px;
 	padding-bottom: 60px;
-	padding-right: 50px;
 }
 
-
-#help1-1, #help1-2, #help1-3, #help1-4 {
-	//visibility: hidden;
+.button {
+	background-color: transparent;
+	font-size: 15px;
+	padding: 15px 30px;
+	margin-top: 20px;
+	border: 1px solid #ff5722;
+	border-radius: 5px;
+	outline: none;
+	color: #ff5722;
 }
 
+.button:hover {
+	cursor: pointer;
+	background-color: #ff5722;
+	color: white;
+}
+.pause {
+	display: none;
+}
 
+#help5 a {
+	display: block;
+	color: #777777;
+	margin-top: 10px;
+	font-size: 15px;
+}
+
+#help5 a:hover {
+	color: #ff5722;
+}
 
 
 
