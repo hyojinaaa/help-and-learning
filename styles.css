@@ -1,0 +1,90 @@
+* {
+	margin: 0;
+	font-family: 'Lato', sans-serif;
+	box-sizing: border-box;
+}
+
+.hero {
+	background-color: #ff5722;
+	text-align: center;
+	font-size: 36px;
+	padding: 120px;
+	color: white;
+	
+}
+
+.content {
+	font-size: 22px;
+	background-color: #eee;
+}
+
+.content2 {
+	background-color: white;
+	font-size: 22px;
+}
+
+.title {
+	padding: 50px 0;
+	width: 600px;
+	font-size: 30px;
+	font-weight: lighter;
+	font-family: verdana;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.help1 {
+	width: 1000px;
+	display: flex;
+	margin: 0 auto;
+
+}
+
+.sixty h2 {
+	font-family: 'Slabo 27px', serif;
+	padding: 40px;
+	letter-spacing: 2px;
+}
+
+.help1 .sixty {
+	width: 70%;
+	padding: 50px;
+	text-align: left;
+}
+
+.sixty div {
+	margin-bottom: 5px;
+	padding: 20px;
+	padding-left: 40px;
+	color: #777777;
+	font-size: 15px;
+	width: 500px;
+}
+
+.sixty .subtitle {
+	font-size: 22px;
+	font-weight: lighter;
+}
+
+.help1 .thirty {
+	width: 30%;
+	//display: flex;
+	//justify-content: center;
+	//flex-direction: column;
+	display: inline-block;
+	margin-top: 80px;
+	padding-bottom: 60px;
+	padding-right: 50px;
+}
+
+
+#help1-1, #help1-2, #help1-3, #help1-4 {
+	//visibility: hidden;
+}
+
+
+
+
+
+
+
